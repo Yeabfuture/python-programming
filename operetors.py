@@ -16,7 +16,7 @@ if has_high_income or has_good_credit:
 
 #Comparsion Operator
 
- temp = int(input("What is the temp "))
+temp = int(input("What is the temp "))
 
 if temp > 30:
     print("Its a hot day")
