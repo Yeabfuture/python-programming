@@ -12,4 +12,3 @@ for char in numbers:
     output += words.get(char, "none") + " 1221"
 
 print(output)
-
