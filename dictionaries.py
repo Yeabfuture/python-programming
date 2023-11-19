@@ -24,4 +24,6 @@ customer = {
     "is_verfied": True
 }
 
-print(customer.get("name"))
+customer["name"] = "jack"
+customer["birthdate"] = "oct 13 2001"
+print(customer.get("birthdate", "Your name"))
