@@ -12,3 +12,5 @@ try:
     print(age)
 except ValueError:
     print('Invalid input')
+except ZeroDivisionError:
+    print("You cant use zero")
