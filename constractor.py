@@ -25,15 +25,19 @@ Talk - Method
 
 class Person:
 
-    def __init__(self,name):
+    def __init__(self, name):
         self.name = name
-
     def talk(self):
-        print(f"Hi, I am {self.name}")
+        print(f"Hi, my name is {self.name}")
 
 
-person = Person("Yeabsira")
-person.talk()
+name1 = Person("Yeabsira")
 
-bob = Person("Bob")
+print(name1.name)
+name1.talk()
+
+
+bob = Person("Bob Smit")
+
+print(bob.name)
 bob.talk()
